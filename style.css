@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-container {
+  background: #24292e;
+}
+
+.nav-container .nav-inner-container {
+  width: 98%;
+  margin: auto;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-container .nav-inner-container .nav-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container .nav-inner-container .nav-left input {
+  display: none;
+}
+
+.nav-container .nav-inner-container .nav-left ul {
+  display: none;
+}
+
+.nav-container .nav-inner-container .nav-left ul li {
+  margin-left: 0.2rem;
+}
+
+.nav-container .nav-inner-container .nav-right .bell {
+  width: 24px;
+}
+
+.nav-container .nav-inner-container .nav-right .plus {
+  display: none;
+}
+
+.nav-container .nav-inner-container .nav-right .avatar {
+  display: none;
+}
+
+.section-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

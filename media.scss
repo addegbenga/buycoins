@@ -1,0 +1,54 @@
+//nav media query
+@media only screen and (min-width: 70em) {
+    .nav-container {
+      .nav-inner-container {
+        .fa-bars {
+          display: none;
+        }
+        .nav-left {
+          width: 100%;
+          align-items: center;
+          display: flex;
+          input {
+            margin-left: 1.5rem;
+            background-color: #24292e;
+            color: white;
+            border: 1px solid #444d56;
+            outline: none;
+            border-radius: 5px;
+            display: flex;
+            width: 400px;
+            padding: 10px;
+          }
+          ul {
+            display: flex;
+            margin-left: 1rem;
+            li {
+              margin-left: 0.9rem;
+              color: white;
+              font-size: 1.1rem;
+            }
+          }
+        }
+        .nav-right {
+          display: flex;
+          width: 15%;
+          justify-content: space-evenly;
+          align-items: center;
+          .plus {
+            width: 27px;
+            height: 15px;
+            object-fit: contain;
+            display: unset;
+          }
+          .avatar {
+            border-radius: 50%;
+            background-color: gray;
+            padding: 15px;
+            height: 5px;
+            display: unset;
+          }
+        }
+      }
+    }
+  }
