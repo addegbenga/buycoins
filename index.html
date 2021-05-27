@@ -44,34 +44,48 @@
 
     <!-- start of left pane -->
     <div class="left-pane-container">
-        <divx class="left-pane-inner-container">
-            <div>
-                <img src="" alt="dp"></img>
-                <span>focus</span>
-                <div>
+        <div class="left-pane-inner-container">
+            <div class="dp-container">
+              <div class="body-avatar">
+                <img src="" ></img>
+              </div>
+                <!-- <span>focus</span> -->
+                <div class="avatar-name">
                     <h1>Adeyemi Gbenga</h1>
                     <p>addegbenga</p>
                 </div>
             </div>
             <div>
-                <p>Open to learning new things</p>
-                <button>Edit Profile</button>
-                <div>
+           <button class="focus-btn">
+             <span class="focus-span">G</span>
+             Focusing
+           </button>
+                <p class="open-to-learn">Open to learning new things</p>
+                <button class="edit-btn">Edit Profile</button>
+                <div class="profile-details-container">
+                  <div class="portfolio-link-container">
+                    <img src="./assets/people.png"/>
                     <a href="#">https://coder-bot.netlify.app</a>
-                    <div>
-                        <p>followers</p>
-                        <p> 1 following</p>
-                        <p> starred repo</p>
+                  </div>
+                    <div class="follow-container">
+                        <p><span>0</span> followers</p>
+                        <p> <span>1</span> following</p>
+                        <div class="star-container">
+                          <img src="./assets/star.png"/>
+                          <p> 10 </p>
+                        </div>
                     </div>
-                    <ul>
-                        <li>self employed</li>
-                        <li>Nigeria</li>
-                        <li>Portfolio</li>
-                        <li>Twitter handle</li>
-                    </ul>
-                    <div>
-                        <h1>Achievements</h1>
-                        <img src="achivement badge"></img>
+                    <div class="achievement-container">
+                      <ul>
+                          <li>self employed</li>
+                          <li>Nigeria</li>
+                          <li>Portfolio</li>
+                          <li>Twitter handle</li>
+                      </ul>
+                      <div class="acheivement-logo">
+                          <h1>Achievements</h1>
+                          <img src="./assets/badge--acv-64.png"></img>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -87,29 +101,36 @@
           <li>Projects</li>
           <li>Packages</li>
         </ul>
-        <div>
-            <input type="text" placeholder="Find a repository"></input>
-            <div>
+        <div class="repo-header-container">
+          <div class="repo-search-container">
+            <input class="search-repo" type="text" placeholder="Find a repository..."></input>
+            <button>New</button>
+          </div>
+            <div class="repo-btns-container">
                 <button>Type</button>
                 <button>Button</button>
                 <button>Sort</button>
             </div>
-            <button>New</button>
+            
         </div>
 
         <!-- start repository result list -->
-        <div>
-            <div>
+        <div class="list-container">
+          <div class="list-repo-container">
+            <div class="list-repo-name">
                 <h1>Name of user</h1>
-                <div>
+                <div class="repo-name">
+                  <div>
                     <p>Javascript</p>
+                  </div>
                     <p>updated 3 days ago</p>
                 </div>
             </div>
-            <div>
-                <button>Star</button>
-                <span>activity graph</span>
+            <div class="list-repo-activity">
+                <button><span class="repo-star"><img src="./assets/star.png"/></span>Star</button>
+                <span class="graph">activity graph</span>
             </div>
+          </div>
         </div>
         <!-- end repository result list -->
       </div>
